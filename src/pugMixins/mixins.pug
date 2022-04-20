@@ -5,3 +5,8 @@ mixin li (title, link)
 mixin navButton (src, alt)
   .profile__button
     img(src=src, alt=alt).button__icon
+
+mixin sideBarMenuItems (src, title, link)
+  .menu__item
+    img(src=src, alt=title).menu__icon
+    a.menu__link(href=link) #{title}

@@ -1,0 +1,77 @@
+.side-bar {
+	padding: 5rem 0 1.5rem 0;
+	height: 100vh;
+
+	&__wrapper {
+		padding: 8rem 0 1.5rem 0;
+		height: 87vh;
+		@extend .column;
+		align-items: flex-start;
+	}
+}
+
+.logo {
+	margin-inline: auto;
+	@extend .row;
+	width: min(100%, 16rem);
+
+	&__title {
+		@include font($ff-primary, 700, 1.8, 2.3, $c-blue-dark);
+	}
+}
+
+.menu {
+	&__title {
+		@include font($ff-mining, 700, 1.2, 2, $c-blue, 1px);
+		padding-left: 2.4rem;
+	}
+
+	&__item {
+		position: relative;
+		padding: 1.6rem 0 1.6rem 2.4rem;
+		width: 100%;
+		@extend .row;
+		justify-content: flex-start;
+
+		&::before {
+			display: none;
+			position: absolute;
+			left: 0;
+			content: "";
+			width: 4px;
+			height: 3.2rem;
+			background: $c-blue;
+			border-radius: 0px 100px 100px 0px;
+
+			animation: active-slide 0.5s forwards;
+		}
+
+		&.active {
+			&::before {
+				display: block;
+			}
+		}
+	}
+	&__link {
+		margin-left: 1.6rem;
+
+		@include font($ff-navBar, 600, 1.4, 2.4, $c-dark, -0.2px);
+		opacity: 0.4;
+		transition: all 0.3s ease;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+
+@keyframes active-slide {
+	0% {
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
