@@ -14,3 +14,11 @@
 	top: $top;
 	left: $left;
 }
+
+@mixin font($ff, $fw, $fz, $lh, $c) {
+	font-family: $ff;
+	font-weight: $fw;
+	font-size: $fz + rem;
+	line-height: $lh + rem;
+	color: $c;
+}

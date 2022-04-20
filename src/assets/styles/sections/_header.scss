@@ -1,0 +1,44 @@
+.header {
+	grid-area: header;
+
+	@extend .row;
+	width: min(100%, $max-width);
+}
+.nav {
+	@extend .row;
+	flex-wrap: wrap;
+	width: min(100%, 53.3rem);
+
+	&__item {
+		margin-right: 1rem;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__link {
+		@include font($ff-primary, 400, 1.4, 1.8, $c-blue-dark);
+
+		&.active {
+		}
+	}
+}
+
+.profile {
+	@extend .row;
+	width: min(100%, 18rem);
+	cursor: pointer;
+
+	&__button {
+		padding: 1.2rem;
+		background: $c-white-btn;
+		box-shadow: $shadow-btn;
+		border-radius: 1rem;
+	}
+
+	&__photo {
+		width: 4.8rem;
+		box-shadow: $shadow-btn;
+		border-radius: 10px;
+	}
+}
