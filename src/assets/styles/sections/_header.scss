@@ -3,6 +3,11 @@
 
 	@extend .row;
 	width: min(100%, $max-width);
+
+	@media screen and (max-width: $tablet) {
+		flex-direction: column;
+		align-items: flex-end;
+	}
 }
 .nav {
 	@extend .row;
