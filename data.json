@@ -1,0 +1,34 @@
+{
+	"header": [
+		{
+			"title": "Market",
+			"link": "#"
+		},
+		{
+			"title": "Exchange",
+			"link": "#"
+		},
+		{
+			"title": "Wallet",
+			"link": "#"
+		},
+		{
+			"title": "Social",
+			"link": "#"
+		},
+		{
+			"title": "My History",
+			"link": "#"
+		}
+	],
+	"navButtons": [
+		{
+			"src": "./assets/images/header/icons/1.svg",
+			"alt": "messages"
+		},
+		{
+			"src": "./assets/images/header/icons/2.svg",
+			"alt": "notifications"
+		}
+	]
+}
