@@ -3,10 +3,12 @@
 
 	@extend .row;
 	width: min(100%, $max-width);
+	align-items: baseline;
 
 	@media screen and (max-width: $tablet) {
 		flex-direction: column;
 		align-items: flex-end;
+		justify-content: flex-start;
 	}
 }
 .nav {

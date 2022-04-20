@@ -1,0 +1,12 @@
+section.side-bar 
+  .logo
+    img.logo__icon(src='assets/images/side-bar/icons/logo.svg', alt='logo gnd crypt')
+    h1.logo__title GND CRYPT 
+  .side-bar__wrapper
+    .side-bar__menu
+      each item in sideBar.menu
+        +sideBarMenuItems(item.src, item.title, item.link)
+    .side-bar__menu 
+      span.menu__title TEAMS
+        each item in sideBar.teams
+          +sideBarMenuItems(item.src, item.title, item.link)

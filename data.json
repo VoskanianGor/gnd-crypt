@@ -30,5 +30,41 @@
 			"src": "./assets/images/header/icons/2.svg",
 			"alt": "notifications"
 		}
-	]
+	],
+	"sideBar": {
+		"menu": [
+			{
+				"src": "./assets/images/side-bar/icons/1.svg",
+				"title": "Dashboard",
+				"link": "#"
+			},
+			{
+				"src": "./assets/images/side-bar/icons/2.svg",
+				"title": "Shot Performance",
+				"link": "#"
+			},
+			{
+				"src": "./assets/images/side-bar/icons/3.svg",
+				"title": "Followers",
+				"link": "#"
+			},
+			{
+				"src": "./assets/images/side-bar/icons/4.svg",
+				"title": "Administration",
+				"link": "#"
+			}
+		],
+		"teams": [
+			{
+				"src": "./assets/images/side-bar/icons/5.svg",
+				"title": "Message",
+				"link": "#"
+			},
+			{
+				"src": "./assets/images/side-bar/icons/6.svg",
+				"title": "Support",
+				"link": "#"
+			}
+		]
+	}
 }
