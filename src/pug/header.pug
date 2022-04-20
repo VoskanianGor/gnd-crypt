@@ -1,0 +1,8 @@
+header.header
+  ul.nav 
+    each li in header
+      +li(li.title, li.link)
+  .profile 
+    each btn in navButtons 
+      +navButton(btn.src, btn.alt)
+    img(src="./assets/images/header/user-photo.svg", alt="user photo").profile__photo

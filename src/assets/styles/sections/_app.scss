@@ -1,0 +1,11 @@
+.app {
+	width: min(100% - 2rem, 1440px);
+	margin-inline: auto;
+
+	display: grid;
+	grid-template-columns: 1fr 11fr;
+	grid-template-rows: 1 11fr;
+	grid-template-areas:
+		"nav header"
+		"nav main";
+}

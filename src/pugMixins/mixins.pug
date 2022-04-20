@@ -1,0 +1,7 @@
+mixin li (title, link)
+  li.nav__item
+    a.nav__link(href=link) #{title}
+
+mixin navButton (src, alt)
+  .profile__button
+    img(src=src, alt=alt).button__icon
