@@ -20,3 +20,15 @@
 	padding: 0 15px;
 	margin: 0 auto;
 }
+
+.title {
+	@include font($ff-primary, 700, 2.4, 3, $c-title);
+
+	&__wrapper {
+		@extend .row;
+	}
+
+	&__link {
+		cursor: pointer;
+	}
+}

@@ -10,3 +10,9 @@ mixin sideBarMenuItems (src, title, link)
   .menu__item
     img(src=src, alt=title).menu__icon
     a.menu__link(href=link) #{title}
+
+mixin walletSummaryItems (title, value, icon)
+  .wallet-s__item 
+    img(src=icon, alt=title).wallet-s__icon
+    h3.wallet-s__title #{title}
+    span.wallet-s__value $#{value}
