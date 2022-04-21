@@ -1,0 +1,5 @@
+section.mining
+  h2.title Mining Status
+  .mining__wrapper
+    each item in mining 
+      +miningItems(item.title, item.status, item.icon)

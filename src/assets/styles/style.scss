@@ -5,9 +5,12 @@
 @import "./utils/reset";
 @import "./utils/mixins";
 
+@import "./utils/checkbox";
+
 @import "./sections/app";
 @import "./sections/header";
 @import "./sections//sideBar";
 @import "./sections/main";
 @import "./sections/walletSummary";
 @import "./sections/myWallets";
+@import "./sections/mining";

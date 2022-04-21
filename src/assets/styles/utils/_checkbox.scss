@@ -1,0 +1,29 @@
+.checkbox {
+	position: relative;
+	width: 2.4rem;
+	height: 1.5rem;
+	appearance: none;
+	background-color: $c-gray;
+	border-radius: 3rem;
+
+	transition: all 0.3s ease;
+	cursor: pointer;
+
+	&:before {
+		content: "";
+		position: absolute;
+		width: 1.5rem;
+		height: 1.5rem;
+		background-color: $c-white;
+		border-radius: 50%;
+		box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.1);
+		transition: all 0.3s ease;
+	}
+	&:checked {
+		background-color: $c-blue-primary;
+
+		&:before {
+			transform: translateX(1.3rem);
+		}
+	}
+}

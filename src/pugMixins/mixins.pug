@@ -22,3 +22,15 @@ mixin myWalletsItems (title, value)
     h3.my-wallets__title #{title}
     span.my-wallets__value #{value} 
       span.my-wallets__percent %
+
+mixin miningItems (title, status, icon)
+  .mining__item 
+    img(src=icon, alt=title).mining__icon
+    h3.mining__title #{title}
+    if status == 'Running...'
+      span.mining__status-run #{status}
+      input(type="checkbox").checkbox
+    else
+      span.mining__status $#{status}
+    
+    

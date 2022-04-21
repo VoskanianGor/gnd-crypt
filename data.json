@@ -124,5 +124,22 @@
 			"title": "+ ADD NEW",
 			"value": "Wal"
 		}
+	],
+	"mining": [
+		{
+			"title": "GPUs mining",
+			"status": "Running...",
+			"icon": "./assets/images/mining/icons/1.svg"
+		},
+		{
+			"title": "CPUs mining",
+			"status": "Running...",
+			"icon": "./assets/images/mining/icons/2.svg"
+		},
+		{
+			"title": "Est. daily USD",
+			"status": "125.03",
+			"icon": "./assets/images/mining/icons/3.svg"
+		}
 	]
 }

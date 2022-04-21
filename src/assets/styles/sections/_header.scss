@@ -4,6 +4,7 @@
 	@extend .row;
 	width: min(100%, $max-width);
 	align-items: baseline;
+	align-self: center;
 
 	@media screen and (max-width: $tablet) {
 		flex-direction: column;
