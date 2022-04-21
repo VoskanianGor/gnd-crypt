@@ -1,0 +1,7 @@
+section.my-wallets 
+  .title__wrapper 
+    h2.title My Wallets
+    img(src="./assets/images/my-wallets/icons/more.svg", alt="more").title__link
+  .my-wallets__wrapper 
+    each wallet in wallets
+      +myWalletsItems(wallet.title, wallet.value)

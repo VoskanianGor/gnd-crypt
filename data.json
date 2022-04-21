@@ -102,5 +102,27 @@
 				"icon": "./assets/images/wallet-summary/icons/4.svg"
 			}
 		]
-	}
+	},
+	"wallets": [
+		{
+			"title": "BTC",
+			"value": "69"
+		},
+		{
+			"title": "LTC",
+			"value": "82"
+		},
+		{
+			"title": "XRP",
+			"value": "99"
+		},
+		{
+			"title": "BLT",
+			"value": "69"
+		},
+		{
+			"title": "+ ADD NEW",
+			"value": "Wal"
+		}
+	]
 }

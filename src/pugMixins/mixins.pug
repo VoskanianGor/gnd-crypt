@@ -16,3 +16,9 @@ mixin walletSummaryItems (title, value, icon)
     img(src=icon, alt=title).wallet-s__icon
     h3.wallet-s__title #{title}
     span.wallet-s__value $#{value}
+
+mixin myWalletsItems (title, value)
+  .my-wallet__item 
+    h3.my-wallet__title #{title}
+    span.my-wallet__value #{value} 
+      span.my-wallet__percentage %
