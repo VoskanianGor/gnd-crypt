@@ -1,8 +1,8 @@
 .wallet-s {
 	grid-area: wallet-s;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 3rem 2fr 3fr;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	row-gap: 3.2rem;
 
 	&__balance {

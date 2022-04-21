@@ -1,11 +1,11 @@
 .side-bar {
 	grid-area: nav;
-	padding: 5rem 0 1.5rem 0;
-	height: 100vh;
+	padding: 7rem 0 1.5rem 0;
+	height: 100%;
 
 	&__wrapper {
 		padding: 8rem 0 1.5rem 0;
-		height: 87vh;
+		height: 100%;
 		@extend .column;
 		align-items: flex-start;
 	}
