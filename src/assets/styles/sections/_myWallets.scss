@@ -1,0 +1,73 @@
+.my-wallets {
+	grid-area: my-wallets;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 3rem 1fr;
+	row-gap: 3.2rem;
+	&__wrapper {
+		@extend .row;
+		flex-wrap: wrap;
+		align-self: flex-end;
+	}
+
+	&__item {
+		@extend .column;
+		padding: 2.75rem 0;
+		width: 8.8rem;
+		height: 26rem;
+		background-color: $c-white;
+		border-radius: 6rem;
+		border: 1px solid $c-gray;
+		box-shadow: $shadow-my-wallets;
+		cursor: pointer;
+		transition: all 0.5s ease;
+
+		@include font($ff-wallet, 500, 2.4, 2.4, $c-black);
+
+		&:hover {
+			background-color: $c-blue-primary;
+			box-shadow: $shadow-my-wallets-hover;
+			color: $c-white;
+		}
+	}
+
+	&__title {
+		transform: rotate(-90deg);
+		font-size: 1.4rem;
+		line-height: 1.6rem;
+	}
+
+	&__value {
+		font-size: 2.4rem;
+		line-height: 2.8rem;
+	}
+
+	&__percent {
+		font-size: 0.9rem;
+		line-height: 1rem;
+	}
+}
+
+.my-wallets__item {
+	&:last-child {
+		background-color: transparent;
+		border: 0.91899px dashed $c-wal;
+		box-shadow: none;
+
+		&:hover {
+			background-color: $c-blue-primary;
+			box-shadow: $shadow-my-wallets-hover;
+			color: $c-white;
+		}
+	}
+	&:last-child > .my-wallets__title {
+		margin-top: 2.7rem;
+	}
+	&:last-child > .my-wallets__value {
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+	&:last-child > .my-wallets__value > .my-wallets__percent {
+		display: none;
+	}
+}
