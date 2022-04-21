@@ -1,7 +1,7 @@
 // fonts
 $ff-primary: "NotoSans", sans-serif;
 $ff-numbers: "Tomorrow", sans-serif;
-$ff-wallet: "Gilory", sans-serif;
+$ff-wallet: "Gilroy", sans-serif;
 $ff-navBar: "SofiaPro", sans-serif;
 $ff-transactions: "ProductSans", sans-serif;
 $ff-mining: "DMSans", sans-serif;
@@ -16,6 +16,9 @@ $c-wallet-s-balance: #b0bcd0;
 $c-wallet-s-details: #6f767e;
 $c-black: #000000;
 $c-white: #ffffff;
+$c-gray: #e2e2e2;
+$c-wal: #607d7c;
+$c-blue-primary: #4f46ba;
 
 // resolution
 $max-width: 1028px;
@@ -54,3 +57,15 @@ $shadow-income: drop-shadow(0px 90.5669px 72.4535px rgba(74, 43, 220, 0.25))
 	drop-shadow(0px 18.1134px 11.7737px rgba(74, 43, 220, 0.125))
 	drop-shadow(0px 7.37952px 5.90362px rgba(74, 43, 220, 0.0981481))
 	drop-shadow(0px 1.67716px 2.85118px rgba(74, 43, 220, 0.0601852));
+$shadow-my-wallets: 0px 120.798px 96.6385px rgba(0, 0, 0, 0.01),
+	0px 78.295px 56.5961px rgba(0, 0, 0, 0.00759259),
+	0px 46.5296px 30.7811px rgba(0, 0, 0, 0.00607407),
+	0px 24.1596px 15.7037px rgba(0, 0, 0, 0.005),
+	0px 9.84281px 7.87424px rgba(0, 0, 0, 0.00392593),
+	0px 2.237px 3.8029px rgba(0, 0, 0, 0.00240741);
+$shadow-my-wallets-hover: 0px 50.7352px 78.5187px rgba(20, 34, 244, 0.14),
+	0px 32.8839px 45.9844px rgba(20, 34, 244, 0.106296),
+	0px 19.5424px 25.0097px rgba(20, 34, 244, 0.085037),
+	0px 10.147px 12.7593px rgba(20, 34, 244, 0.07),
+	0px 4.13398px 6.39782px rgba(20, 34, 244, 0.054963),
+	0px 0.939541px 3.08986px rgba(20, 34, 244, 0.0337037);

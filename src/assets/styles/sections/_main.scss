@@ -1,6 +1,13 @@
 .main {
 	grid-area: main;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 47.6rem 50.6rem;
 	grid-template-rows: 1fr 1fr;
+	column-gap: 7rem;
+
+	@media screen and (max-width: $tablet) {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(5, 1fr);
+		row-gap: 7rem;
+	}
 }
