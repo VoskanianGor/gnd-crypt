@@ -4,6 +4,13 @@
 	grid-template-columns: 47.6rem 50.6rem;
 	grid-template-rows: 1fr 1fr;
 	column-gap: 7rem;
+	grid-template-areas:
+		"wallet-s my-wallets"
+		"info info";
+
+	&__information {
+		grid-area: info;
+	}
 
 	@media screen and (max-width: $tablet) {
 		grid-template-columns: 1fr;
