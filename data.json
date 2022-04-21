@@ -66,5 +66,41 @@
 				"link": "#"
 			}
 		]
+	},
+	"walletSummary": {
+		"balance": [
+			{
+				"title": "Outcome",
+				"value": "460.00",
+				"icon": "./assets/images/wallet-summary/icons/outcome.svg"
+			},
+			{
+				"title": "Income",
+				"value": "840.00",
+				"icon": "./assets/images/wallet-summary/icons/income.svg"
+			}
+		],
+		"details": [
+			{
+				"title": "Total net worth",
+				"value": "5,250.90",
+				"icon": "./assets/images/wallet-summary/icons/1.svg"
+			},
+			{
+				"title": "Total earnings",
+				"value": "10,596.80",
+				"icon": "./assets/images/wallet-summary/icons/2.svg"
+			},
+			{
+				"title": "Harvested losses",
+				"value": "0.00",
+				"icon": "./assets/images/wallet-summary/icons/3.svg"
+			},
+			{
+				"title": "Total for all goals",
+				"value": "5,596.80",
+				"icon": "./assets/images/wallet-summary/icons/4.svg"
+			}
+		]
 	}
 }

@@ -11,14 +11,11 @@ $c-blue-dark: #173076;
 $c-blue: #51459e;
 $c-white-btn: #fefeff;
 $c-dark: #1b1c31;
-
-// box-shadows
-$shadow-btn: 0px 100px 80px rgba(41, 72, 152, 0.05),
-	0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963),
-	0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704),
-	0px 20px 13px rgba(41, 72, 152, 0.025),
-	0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296),
-	0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+$c-title: #3b3b3b;
+$c-wallet-s-balance: #b0bcd0;
+$c-wallet-s-details: #6f767e;
+$c-black: #000000;
+$c-white: #ffffff;
 
 // resolution
 $max-width: 1028px;
@@ -29,3 +26,31 @@ $max-width: 1028px;
 $tablet: 768px;
 $mobile: 480px;
 $s-laptop: 1024px;
+
+// box-shadows
+$shadow-btn: 0px 100px 80px rgba(41, 72, 152, 0.05),
+	0px 64.8148px 46.8519px rgba(41, 72, 152, 0.037963),
+	0px 38.5185px 25.4815px rgba(41, 72, 152, 0.0303704),
+	0px 20px 13px rgba(41, 72, 152, 0.025),
+	0px 8.14815px 6.51852px rgba(41, 72, 152, 0.0196296),
+	0px 1.85185px 3.14815px rgba(41, 72, 152, 0.012037);
+$shadow-wallet-s-item: 0px 111.167px 88.9337px rgba(229, 229, 245, 0.25),
+	0px 72.0528px 52.0839px rgba(229, 229, 245, 0.189815),
+	0px 42.82px 28.327px rgba(229, 229, 245, 0.151852),
+	0px 22.2334px 14.4517px rgba(229, 229, 245, 0.125),
+	0px 9.05807px 7.24645px rgba(229, 229, 245, 0.0981481),
+	0px 2.05865px 3.49971px rgba(229, 229, 245, 0.0601852);
+
+$shadow-outcome: drop-shadow(0px 90.5669px 72.4535px rgba(220, 129, 43, 0.25))
+	drop-shadow(0px 58.7008px 42.4323px rgba(220, 129, 43, 0.189815))
+	drop-shadow(0px 34.885px 23.0778px rgba(220, 129, 43, 0.151852))
+	drop-shadow(0px 18.1134px 11.7737px rgba(220, 129, 43, 0.125))
+	drop-shadow(0px 7.37952px 5.90362px rgba(220, 129, 43, 0.0981481))
+	drop-shadow(0px 1.67716px 2.85118px rgba(220, 129, 43, 0.0601852));
+
+$shadow-income: drop-shadow(0px 90.5669px 72.4535px rgba(74, 43, 220, 0.25))
+	drop-shadow(0px 58.7008px 42.4323px rgba(74, 43, 220, 0.189815))
+	drop-shadow(0px 34.885px 23.0778px rgba(74, 43, 220, 0.151852))
+	drop-shadow(0px 18.1134px 11.7737px rgba(74, 43, 220, 0.125))
+	drop-shadow(0px 7.37952px 5.90362px rgba(74, 43, 220, 0.0981481))
+	drop-shadow(0px 1.67716px 2.85118px rgba(74, 43, 220, 0.0601852));
